@@ -1,0 +1,46 @@
+/**
+ * CSS Reset
+ * From Blueprint reset.css
+ * http://blueprintcss.googlecode.com
+ */
+
+/**
+ * Basic Typography
+ */
+
+.olControlAttribution {
+    bottom: 5px;
+}
+
+/**
+ * Map Examples Specific
+ */
+.smallmap {
+    width: 1060px;
+    height: 600px;
+    border: 1px solid #ccc;
+}
+
+/* mobile specific */
+@media only screen and (max-width: 600px) {
+    #map {
+        background : #7391ad;
+        width      : 100%;
+    }
+    #map {
+        border : 0;
+        height : 250px;
+    }
+    #tags {
+        display : none;
+    }
+}
+@media only screen and (orientation: landscape) and (max-width: 600px) {
+    #map {
+        width: 70%;
+    }
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+

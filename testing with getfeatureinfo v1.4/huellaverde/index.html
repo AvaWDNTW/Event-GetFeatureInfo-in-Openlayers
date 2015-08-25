@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META -->
+	<title>Geovisión - UNED, Costa Rica</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="" />
+ 	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+	
+	<!-- CSS -->
+	<!-- Kickstart -->
+	<link rel="stylesheet" type="text/css" href="../css/kickstart.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../style.css" media="all" /> 
+	<link rel="stylesheet"  href="../css/zozo.accordion.css" >
+	<link rel="stylesheet" type="text/css" href="../css/flaticons/flaticon.css"> 
+	
+	<!-- GeoVision -->
+        <link rel="stylesheet" type="text/css" href="css/controls.css" />
+        <link rel="stylesheet" type="text/css" href="css/olStyleOverride.css" />
+        <!-- OpenLayers -->
+        <link rel="stylesheet" href="css/mapstyle.css" type="text/css">
+        <!-- Font Awesome -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- JS -->
+	<!-- Libraries -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="ol/OpenLayers.js"></script>
+	<script src="http://maps.google.com/maps/api/js?v=3&amp;sensor=false"></script>	
+
+	<!-- Default -->
+	<script type="text/javascript" src="../js/kickstart.js"></script>
+	<script src="../js/zozo.accordion.min.js"></script>
+
+	<!-- Bizlogic -->
+        <script src="controls.js"></script>
+        <script src="layers-huella.js"></script>
+        <script src="main.js"></script>
+
+</head>
+
+<body onload="init()">
+
+	<!-- Header-->
+<div class="grid flex fullwd">
+	<div class="col_12 banner">
+	</div>
+	
+	<div class="col_12 navbar">
+		<!--
+		<ul class="menu">
+			<li><a href="../index.html">Inicio</a></li>
+			<li class="current"><a href="">Visor ambiental</a></li>
+			<li><a href="visor_social.html"></i>Visor Social</a>
+				<!--<ul>
+				<li><a href=""><i class="icon-cog"></i> Sub Item</a></li>
+				<li><a href=""><i class="icon-envelope-alt"></i> Sub Item</a>
+					<ul>
+					<li><a href=""><i class="icon-wrench"></i> Sub Item</a></li>
+					<li><a href=""><i class="icon-camera-retro"></i> Sub Item</a></li>
+					<li><a href=""><i class="icon-coffee"></i> Sub Item</a></li>
+					<li><a href=""><i class="icon-twitter"></i> Sub Item</a></li>
+					</ul>
+				</li>
+				<li class="divider"><a href=""><i class="icon-trash"></i> li.divider</a></li>
+				</ul>-->
+			<!--</li>
+			<li><a href="visor_economico.html">Visor Econ&oacute;mico</a></li>
+		</ul>-->
+
+	</div>
+</div><!-- fullwd -->
+
+<!-- GRID BEGINS -->
+<div class="grid">	
+	<div class="col_12 mainTxt">
+		<h1><i class="flaticon-tree65"></i>Huella verde</h1>
+		
+   		<div id="map-canvas">
+            	<!--Mapa-->
+                	<div id="map" class="smallmap"></div>
+                	<div id="toolbox" class="toolbox"></div>
+                	<canvas id="legend" class="legend">LEGEND</canvas>
+            	<!--Fin Mapa-->
+
+		<!--
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+		-->
+	</div>
+</div> <!-- GRID END -->
+
+<!-- Footer-->
+	<div class="col_12 footer">
+	<h5>Contáctenos: 2253- 6008   /  jsaborio@uned.ac.cr </h5>
+
+	<h5>Huella verde</h5>
+	</div>
+</body>
+</html>

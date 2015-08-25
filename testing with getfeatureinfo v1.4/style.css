@@ -1,0 +1,340 @@
+/*---------------------------------
+	IMPORTS
+-----------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600|Expletus+Sans:400,400italic,600,600italic,700,700italic);
+
+/*---------------------------------
+	OVERRIDES
+-----------------------------------*/
+h1,h2,h3,h4,h5,h6{
+font-family: "Expletus Sans", arial, verdana, sans-serif;
+font-weight:normal;
+}
+
+thead th,
+tbody th{
+font-family: "Expletus Sans", arial, verdana, sans-serif;
+}
+
+button,
+a.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+font-family: "Expletus Sans", arial, verdana, sans-serif;
+}
+
+.menu{
+font-family: "Expletus Sans", arial, verdana, sans-serif;
+}
+
+blockquote{
+font-family: "Open Sans", arial, verdana, sans-serif;
+}
+/*---------------------------------
+	LAYOUT
+-----------------------------------*/
+body{
+margin:0;
+padding:0 0 0 0;
+color:#000;
+background-image:url(css/img/topographic-bg-invt.png);
+font:normal 0.9em/150% 'Open Sans', arial, verdana, sans-serif;
+text-shadow: 0 0 1px transparent; /* google font pixelation fix */
+line-height: 1.2em;
+}
+
+.banner {
+	background:url(css/img/banner-logo4.jpg) no-repeat center center;
+	background-color: #FFF;
+	/*background-size: cover;*/
+	height: 242px;
+	margin: 0 auto;
+	padding: 0 4%;
+	width:100%;
+}
+
+.social_icons {
+	background-color: red;
+	float: right;
+	margin-top: 3em;
+}
+
+.search_box {
+	background-color: aqua;
+	clear: right;
+	float: right;
+	margin-top: 4em;
+}
+
+/* NAV BAR*/
+.navbar{
+width: 100%;
+background-color: #d7e100;
+height: 2.5em;
+margin: 0 auto;
+margin-top: -2em;
+padding: 0;
+}
+
+
+.about_box {
+	clear: both;
+	background-color: #666666;
+	color: #FFF;
+	margin: 4% 0 !important;
+	padding: 3%;
+	text-align: justify;
+}
+
+.about_box h4 {
+	color: #d7e100;
+	font-weight: 400;
+}
+
+/*ACCORDION CSS*/
+
+.full_accordion {
+	margin-top:3em;
+	margin-bottom:2em;	
+	padding: 0;
+}
+
+
+#home_accordion {
+	margin: 0 auto;
+}
+
+
+.full_accordion h2 {
+	font-size: 230%;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.blue_sect {
+	color: #006bba;
+}
+
+.green_sect {
+	color: #69c62e;
+}
+
+.aqua_sect {
+	color: #00ade5;
+}
+
+button a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*GREEN BOXES*/
+
+.linkbox {
+	background-color: #d7e100;
+	color: #0475ad;
+	padding: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.linkbox a:link {
+	background-color: #d7e100;
+	color: #0475ad;
+	text-decoration: none;
+}
+
+.linkbox a:hover {
+	color: #d7e100;
+	text-decoration: none;
+	background-color: #0475ad;
+}
+
+.linkbox:hover {
+	background-color: #0475ad;
+}
+
+.small {
+	float: right;
+}
+
+
+/*BOTTOM SLIDER*/
+
+.news_slider {
+	background-color: #FFF;
+	color: #DDD;
+	margin-bottom: 4%;
+	border: 1px #CCC solid;
+	padding: 0;
+}
+
+.news_hd h4 {
+	background-color: #00ade5;
+	color: #FFF;
+	padding: 0.5em 1.5em 0.2em 1.5em;
+	line-height: 100%;
+	margin-bottom: 0px;
+	position: relative;
+	margin-top: 2em;
+	margin-left: -0.275em !important;
+	width: 80%;
+}
+
+.full_slider {
+	height: auto;
+	position: relative;
+}
+
+/*SLIDER ITSELF*/
+
+.bx-wrapper {
+	width: 100%;
+	float: right;
+	margin-top: 1.5em;
+	margin-right: 1em;
+}
+
+.bx-viewport {
+	width: 80% !important;
+	margin: 0 auto;
+}
+
+.bx-wrapper .bx-viewport {
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+border: none;
+background: none;
+}
+
+.bx-wrapper img {
+	max-width: 22%;
+	display: block;
+	float: left;
+	margin-right: 1em;
+}
+
+.bx-wrapper h5 {
+	color: #00ade5;
+	margin-top: 0;
+}
+
+.bx-wrapper p {
+	color: #000;
+	font-size: 90%;
+}
+
+.bx-wrapper .bx-controls-direction a {
+position: absolute;
+top: 50%;
+}
+
+.bx-wrapper .bx-prev {
+	left: 2em;
+	background: url(css/img/prev-btn.png) no-repeat 0% 98%;
+	opacity: 0.75;
+}
+
+.bx-wrapper .bx-next {
+	right: 2em;
+	background: url(css/img/nxt-btn.png) no-repeat 0% 98%;
+	opacity: 0.75;
+}
+
+.bx-wrapper .bx-prev:hover {
+	opacity: 1;
+	background-position: 0 98%;
+}
+
+.bx-wrapper .bx-next:hover {
+	opacity: 1;
+	background-position: 0 98%;
+}
+
+/*STYLES FOR SUBPAGES*/
+
+.mainTxt {
+	margin: 4% 0; 
+	padding: 3%;
+	background-color: #FFF;
+}
+
+.mainTxt h1{
+	color: #006bba;
+	font-size: 250%;
+}
+
+.mainTxt h2{
+	color: #00ade5;
+	font-size: 200%;
+}
+
+.mainTxt h3{
+	color: #d7e100;
+	font-size: 150%;
+}
+
+/*SUBPAGES NAVBAR*/
+
+.fullwd {
+	margin: 0 auto !important;
+	padding: 0 !important;
+	width: 100% !important;
+	clear: both;
+}
+
+.menu {
+	border: none;
+	background: #d7e100;
+	font-weight: 300;
+}
+
+.menu li a{
+		text-shadow:none;
+		padding:8px 20px;
+		text-decoration:none;
+		font-size:1em;
+		color: #FFF;
+}
+
+.menu li.current>a,
+.menu li.current>a:hover,
+.menu li.current.hover>a{
+		color: #4c9c3a;
+		text-shadow:none;
+		cursor: auto;
+		background: #d7e100;
+}
+
+.menu li a:hover,
+.menu li.hover>a{
+		background-color: #d7e100;
+		color: #4c9c3a;
+}
+
+/* sub menus */
+.menu ul{
+	background-color: #d7e100;
+	opacity: 0.85;
+	margin-top: 0px !important;
+	border:none;
+}
+
+
+/*FOOTER*/
+
+.footer {
+	text-align:center;
+	color:#999;
+	background:url(css/img/topographic-bg.png);
+	margin: 0 auto;
+	font-size: 90%;
+	padding: 3% 0 6% 0;
+	min-width: 90%;
+
+}
+
+
+
